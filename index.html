@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hugo Perret Media Kit</title>
+<meta name="description" content="Du bureau à l'Ironman. Comptable à plein temps, triathlète, en route vers mon premier Ironman en 2028. Media kit et collaborations marques.">
+<meta property="og:title" content="Hugo Perret · Du bureau à l'Ironman">
+<meta property="og:description" content="Triathlète suisse en route vers mon premier Ironman en 2028. Collaborations marques.">
+<meta property="og:image" content="images/hero.webp">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0e0f0d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='2' fill='%23d52b1e'/%3E%3Crect x='13' y='6' width='6' height='20' fill='%23fff'/%3E%3Crect x='6' y='13' width='20' height='6' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..900;1,62..125,300..900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#top" class="nav__brand">
+    <svg width="16" height="16" viewBox="0 0 32 32" aria-label="Suisse"><rect width="32" height="32" rx="2" fill="#d52b1e"/><rect x="13" y="6" width="6" height="20" fill="#fff"/><rect x="6" y="13" width="20" height="6" fill="#fff"/></svg>
+    <span class="nav__name" data-fullname>Hugo Perret</span>
+  </a>
+  <div class="nav__right">
+    <div class="lang" role="group" aria-label="Langue / Language">
+      <button type="button" data-lang="fr" class="is-on">FR</button>
+      <button type="button" data-lang="en">EN</button>
+    </div>
+    <a href="#contact" class="btn btn--sm" data-i18n="cta">Collaborons</a>
+  </div>
+</header>
+
+<main>
+
+<section id="top" class="hero">
+  <div class="hero__text">
+    <div class="kicker"><span class="kicker__dot"></span><span data-i18n="kicker">Swiss triathlete · Ecublens, Suisse</span></div>
+    <div class="hero__main">
+      <h1 class="display hero__title">
+        <span data-i18n="heroA">Du bureau</span>
+        <span class="accent" data-i18n="heroB">à l'Ironman.</span>
+      </h1>
+      <p class="hero__sub" data-i18n="heroSub">40 heures par semaine derrière un bureau. 11 heures à l'entraînement. Et une ligne d'arrivée en ligne de mire : mon premier Ironman, en 2028. Votre marque peut être de l'aventure dès le premier jour.</p>
+      <div class="hero__ctas">
+        <a href="#contact" class="btn btn--lg"><span data-i18n="cta">Collaborons</span> →</a>
+        <a href="#route" class="btn btn--ghost btn--lg" data-i18n="heroCta2">La feuille de route</a>
+      </div>
+    </div>
+    <div class="hero__facts">
+      <div><span class="fact accent">J-<span data-days>—</span></span><span class="fact__label" data-i18n="countdown">avant mon premier Ironman</span></div>
+      <div><span class="fact">5h37</span><span class="fact__label">Ironman 70.3 <span data-race></span></span></div>
+      <div><span class="fact">11 h</span><span class="fact__label" data-i18n="perWeekShort">d'entraînement / semaine</span></div>
+    </div>
+  </div>
+  <div class="hero__media">
+    <div class="hero__parallax" data-parallax>
+      <img src="images/hero.webp" alt="Hugo au départ de la natation, en trifonction orange" fetchpriority="high">
+    </div>
+    <div class="hero__shade"></div>
+    <div class="hero__tags">
+      <span class="tag tag--accent">ROAD TO IRONMAN · 2028</span>
+      <span class="tag">46.53° N · 6.56° E · ECUBLENS</span>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="marquee__track" data-marquee></div></div>
+
+<section id="histoire" class="section">
+  <div class="label"><span class="accent">01</span><span data-i18n="storyLabel">Mon histoire</span><span class="label__line"></span></div>
+  <div class="story">
+    <figure class="story__photo" data-reveal>
+      <img src="images/portrait.webp" alt="Hugo sur la ligne d'arrivée de l'Ironman 70.3 de Vichy" loading="lazy">
+      <figcaption class="tag tag--dark" data-i18n="portraitTag">COMPTABLE · TRIATHLÈTE</figcaption>
+    </figure>
+    <div class="story__text" data-reveal>
+      <h2 class="display h2" data-i18n="storyTitle">Pas un pro. Votre client.</h2>
+      <p class="lead" data-i18n="story1">Je m'appelle Hugo. Comptable à 100 % au CHUV, l'hôpital universitaire de Lausanne. Mes séances, je les cale à 6 h du matin, à la pause de midi et le soir après le bureau : environ 11 heures par semaine en saison.</p>
+      <p class="muted" data-i18n="story2">En parallèle, je prépare l'examen de comptable spécialisé, en octobre 2027. Je mets la compétition en pause un an, je garde la base, puis je reviens avec un plan précis jusqu'à mon premier Ironman.</p>
+      <p class="quote" data-i18n="story3">Ce quotidien, c'est celui de la majorité de vos clients. Je suis la preuve qu'on peut viser grand avec un agenda plein, et je le montre, séance après séance.</p>
+    </div>
+  </div>
+</section>
+
+<section id="chiffres" class="section section--alt" data-stats>
+  <div class="label"><span class="accent">02</span><span data-i18n="statsLabel">Chiffres clés</span><span class="label__line"></span></div>
+  <h2 class="display h2 mb-lg" data-reveal data-i18n="statsTitle">Les bases sont posées.</h2>
+  <div class="stats" data-list="stats"></div>
+  <p class="note" data-i18n="statsNote">Résultats amateurs, en catégorie d'âge. Le meilleur reste à venir.</p>
+</section>
+
+<section id="route" class="section">
+  <div class="label"><span class="accent">03</span><span data-i18n="routeLabel">Feuille de route</span><span class="label__line"></span></div>
+  <h2 class="display h2 mb-lg route__title" data-reveal data-i18n="routeTitle">2026 → 2028 : un objectif, un calendrier.</h2>
+  <div class="route__scroll">
+    <div class="route__inner">
+      <div class="route__bar"><div class="route__fill" data-route-fill></div></div>
+      <div class="route__steps" data-list="route"></div>
+    </div>
+  </div>
+  <div class="route__detail">
+    <span class="display route__detail-title accent" data-sel-title></span>
+    <div class="route__detail-body">
+      <span class="mono muted" data-sel-date></span>
+      <p data-sel-body></p>
+    </div>
+  </div>
+</section>
+
+<section id="communaute" class="section section--alt" data-community>
+  <div class="label"><span class="accent">04</span><span data-i18n="comLabel">Communauté</span><span class="label__line"></span></div>
+  <div class="split mb-lg" data-reveal>
+    <h2 class="display h2" data-i18n="comTitle">Arrivez au premier chapitre.</h2>
+    <p class="body-lg" data-i18n="comBody">Je lance ma création de contenu maintenant. Pour une marque, c'est le meilleur moment : vous faites partie de l'histoire depuis le début, votre visibilité grandit avec l'audience, et vous n'arrivez pas en dernier sur un athlète déjà sollicité de partout.</p>
+  </div>
+  <div class="socials" data-list="socials"></div>
+</section>
+
+<section id="offres" class="section">
+  <div class="label"><span class="accent">05</span><span data-i18n="offLabel">Pour les marques</span><span class="label__line"></span></div>
+  <h2 class="display h2 mb-lg" data-reveal data-i18n="offTitle">Ce que je vous apporte.</h2>
+  <div class="offers" data-list="offers"></div>
+</section>
+
+<section id="pourquoi" class="section why">
+  <span class="why__bg" aria-hidden="true">2028</span>
+  <div class="label label--dark"><span>06</span><span data-i18n="whyLabel">Pourquoi moi</span><span class="label__line"></span></div>
+  <h2 class="display h2 mb-lg why__title" data-i18n="whyTitle">Pourquoi miser sur moi.</h2>
+  <div class="why__grid" data-list="why"></div>
+</section>
+
+<section id="partenaires" class="section section--tight">
+  <div class="label"><span data-i18n="partLabel">Mes partenaires</span><span class="label__line"></span></div>
+  <a href="#contact" class="partner">
+    <span class="display partner__title" data-i18n="partTitle">Votre marque ici ?</span>
+    <span class="btn" data-i18n="partCta">Soyez le premier →</span>
+  </a>
+</section>
+
+<section id="galerie" class="section section--border" data-gallery>
+  <div class="label"><span class="accent">07</span><span data-i18n="galLabel">Galerie</span><span class="label__line"></span></div>
+  <h2 class="display h2 mb-lg" data-reveal data-i18n="galTitle">En mouvement.</h2>
+  <div class="gallery">
+    <figure class="gallery__item gallery__item--big"><img src="images/gal-course-70.webp" alt="Jour de course, Ironman 70.3" loading="lazy"></figure>
+    <figure class="gallery__item"><img src="images/gal-nage.webp" alt="Natation en eau libre dans le Léman" loading="lazy"></figure>
+    <figure class="gallery__item gallery__item--tall"><img src="images/gal-velo.webp" alt="Vélo dans les cols des Alpes" loading="lazy"></figure>
+    <figure class="gallery__item"><img src="images/gal-course.webp" alt="Course à pied" loading="lazy"></figure>
+    <figure class="gallery__item"><img src="images/gal-entrainement.webp" alt="Entraînement" loading="lazy"></figure>
+    <figure class="gallery__item"><img src="images/gal-coulisses.webp" alt="Coulisses, au bureau à 6 h du matin" loading="lazy"></figure>
+  </div>
+</section>
+
+<section id="contact" class="section section--alt">
+  <div class="label"><span class="accent">08</span><span data-i18n="conLabel">Contact</span><span class="label__line"></span></div>
+  <h2 class="display contact__title"><span data-i18n="cta">Collaborons</span><span class="accent">.</span></h2>
+  <div class="split split--top">
+    <div class="contact__info">
+      <p class="body-xl" data-i18n="conSub">Vous avez un produit à faire tester, une gamme à mettre en avant, une saison à construire ? Parlons-en. Je réponds personnellement à chaque message.</p>
+      <div class="contact__direct">
+        <span class="mono-label" data-i18n="conDirect">Email direct</span>
+        <a data-email class="contact__email" href="#"></a>
+      </div>
+      <div class="pills" data-list="socialPills"></div>
+      <a data-mediakit class="btn btn--outline btn--lg" href="#" hidden>↓ <span data-i18n="conKit">Télécharger mon media kit (PDF)</span></a>
+    </div>
+    <div>
+      <form class="form" data-form>
+        <div class="form__row">
+          <label><span data-i18n="fName">Nom</span><input required name="name" autocomplete="name"></label>
+          <label><span data-i18n="fBrand">Marque</span><input name="brand" autocomplete="organization"></label>
+        </div>
+        <label>Email<input type="email" required name="email" autocomplete="email"></label>
+        <label>Message<textarea name="message" rows="5"></textarea></label>
+        <button type="submit" class="btn btn--lg"><span data-i18n="fSend">Envoyer</span> →</button>
+      </form>
+      <div class="sent" data-sent hidden>
+        <span class="display sent__title accent" data-i18n="sentTitle">Merci !</span>
+        <p data-i18n="sentBody">Votre messagerie devrait s'ouvrir avec le message prêt à partir. Si rien ne s'ouvre, écrivez-moi directement à cette adresse :</p>
+        <span class="contact__email" data-sent-email></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="display footer__name" data-fullname>Hugo Perret</div>
+  <div class="footer__meta">
+    <span>© <span data-year>2026</span> <span data-fullname>Hugo Perret</span></span>
+    <span>Swiss triathlete · Ecublens VD</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
